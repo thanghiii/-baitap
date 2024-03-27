@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+:root {
+  --mainColor: #ff9800;
+}
+*{
+  margin: 0 auto;
+  padding: 0;
+}
+body{
+  background-attachment: fixed;
+  font-family: roboto;
+}
+                                      /* Trang chủ */
+.web{
+  width: 1500px;
+  position: relative;
+  margin: 0 auto;
+}
+.web{
+  width: 1500px;
+  position: relative;
+  margin: 0 auto;
+}
+.logo img{
+  margin-left: 0;
+  border-right: 1px solid   #A9A9A9;
+  padding: 0 50px;
+  width: 200px;
+}
+.logo{
+  display: flex;
+  margin-top: 15px;
+  height: 50px;
+}
+.logo p{
+  color: #696969;
+  margin-left: -50px;
+  line-height: 50px;
+}
+.logo button{
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid #696969;
+  border-radius: 5px;
+  cursor:pointer;
+}
+.logo2{
+  padding: 0 20px;
+  width: 620px;
+  margin-right: 140px;
+  cursor:pointer;
+
+}
+.logo2 input{
+  width: 170px;
+  height: 33px;
+  border-radius: 15px;
+  border: 1px solid;
+  margin-left: 20px;
+}
+.logo2 button{
+  width: 100px;
+  height: 33px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+#ICON1{
+  margin-left: -25px;
+}
+                                  /* menu */
+.TRANGCHU{
+  list-style-type: none;
+  width: 1500px;
+  overflow: hidden;
+  display: flex;
+  font-weight: bold;
+  margin-left: -50px;
+  padding: 0 10px;
+
+}
+.logo2 a{
+  background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 3px 3px;
+  color: #000;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 70px;
+  padding: 10px 0;
+}
+.logo2 a:hover{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+}
+.TRANGCHU li {
+  flex;1
+}
+.TRANGCHU button:hover{
+  background-color: darkred;
+  color: darkred;
+  cursor:pointer;
+  transform: translateY(-1px);
+}
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  line-height: 50px;
+  text-decoration: none;
+  opacity: 0.8;
+  transition-duration: .3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+li.dropdown {
+  display: inline-block;
+  transition-duration: .3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  width: 175px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  background-color: white;
+}
+.dropdown-content a {
+  width: 140px;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border: none;
+  font-weight: 10;
+  transition-duration: .3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+.trangchu .dropdown-content a:hover {
+  background-color: #db7093;
+  color: white;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  border-top: 2px solid #b1154a;
+}
+.TRANGCHU a:hover{
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  transform: translateY(-1px);
+  color: darkred;
+}
+                          /* Phần thân */
+.PHANTHAN{
+  width: 1655px;
+  height: 90px;
+  margin-top: 20px;
+  background-color: white;
+  text-align: center;
+}
+.PHANTHAN_CON h1{
+  color: #9F224E;
+  font-size: 40px;
+}
+                        /* Phần thân tab 1 */
+.PHANTHAN_ME{
+  width: 1150px;
+  height: 1000px;
+  display: flex;
+}
+.PHANTHAN_TAB1{
+  margin-top: 30px;
+  text-align: left;
+  line-height: 25px;
+  width: 230px;
+  height: 400px;
+  flex: 1;
+  padding: 10px 10px;
+  margin-left: -40px;
+}
+.PHANTHAN_TAB1 h3{
+  color: #9F224E;
+  font-size: 25px;
+}
+.PHANTHAN_TAB1 h3:hover{
+  color: gray;
+  cursor:pointer;
+  transform: translateY(-1px);
+}
+.PHANTHAN_TAB1 p:hover{
+  cursor:pointer;
+  transform: translateY(-1px);
+}
+.PHANTHAN_TAB1 p{
+  margin-top: 10px;
+}
+
+.KHOANGTRONG{
+  width: 25px;
+}
+                               /* Phần thân tab 2 trái*/
+.PHANTHAN_TAB2{
+  margin-top: 30px;
+  display: flex;
+  flex: 1;
+  margin-left: 100px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: #D3D3D3;
+  min-width: 640px;
+}
+.PHANTHAN_TAB2_TRAI{
+  padding: 10px 10px;
+  text-align: left;
+  width: 380px;
+  margin-left: 0;
+}
+.PHANTHAN_TAB2_TRAI h3{
+    font-size: 30px;
+}
+.PHANTHAN_TAB2_TRAI h3:hover{
+  color: darkred;
+  cursor:pointer;
+  transform: translateY(-1px);
+}
+
+.PHANTHAN_TAB2_TRAI p{
+    font-size: 17px;
+    margin-top: 20px;
+    line-height: 23px;
+    text-align: justify;
+}
+.PHANTHAN_TAB2_TRAI h5{
+    opacity: 0.7;
+    margin-top: 20px;
+}
+                            /* Phần thân tab 2 phải */
+.PHANTHAN_TAB2_PHAI p{
+  margin-left: -10px;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+.PHANTHAN_TAB2_PHAI img{
+  width: 120px ;
+  height: 120px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+.PHANTHAN_TAB2_PHAI img:hover{
+  cursor:pointer;
+  transform: translateY(-1px);
+}
+
+                                  /* test abc 2 */
+.PHANTHAN_TAB2_1{
+  width: 680px;
+  margin-top: 30px;
+  display: flex;
+  margin-left: 450px;
+  height: 200px;
+  margin-top: -750px;
+}
+.PHANTHAN_TAB2_TRAI1{
+  padding: 10px 10px;
+  text-align: left;
+  width: 380px;
+  margin-left: 15px;
+}
+.PHANTHAN_TAB2_TRAI1 h3{
+    font-size: 30px;
+}
+.PHANTHAN_TAB2_TRAI1 h3:hover{
+  color: darkred;
+  cursor:pointer;
+  transform: translateY(-1px);
+}
+.PHANTHAN_TAB2_TRAI1 p{
+    font-size: 17px;
+    margin-top: 20px;
+    line-height: 23px;
+    text-align: justify;
+}
+.PHANTHAN_TAB2_TRAI1 h5{
+    opacity: 0.7;
+    margin-top: 20px;
+}
+
+.PHANTHAN_TAB2_PHAI p{
+  margin-left: -10px;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+.PHANTHAN_TAB2_PHAI img{
+  width: 120px ;
+  height: 120px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+
+                        /* test abc 3 */
+.PHANTHAN_TAB2_2{
+  width: 680px;
+  margin-top: 30px;
+  display: flex;
+  margin-left: 450px;
+  height: 200px;
+  margin-top: 20px;
+}
+.PHANTHAN_TAB2_TRAI2{
+  padding: 10px 10px;
+  text-align: left;
+  width: 380px;
+  margin-left: 15px;
+}
+.PHANTHAN_TAB2_TRAI2 h3{
+    font-size: 30px;
+}
+.PHANTHAN_TAB2_TRAI2 h3:hover{
+  color: darkred;
+  cursor:pointer;
+  transform: translateY(-1px);
+}
+.PHANTHAN_TAB2_TRAI3 h3:hover{
+  color: darkred;
+  cursor:pointer;
+  transform: translateY(-1px);
+}
+.PHANTHAN_TAB2_TRAI2 p{
+    font-size: 17px;
+    margin-top: 20px;
+    line-height: 23px;
+    text-align: justify;
+}
+.PHANTHAN_TAB2_TRAI2 h5{
+    opacity: 0.7;
+    margin-top: 20px;
+}
+
+.PHANTHAN_TAB2_PHAI2 p{
+  margin-left: -10px;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+.PHANTHAN_TAB2_PHAI2 img{
+  width: 120px ;
+  height: 120px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+.PHANTHAN_TAB2_PHAI img:hover{
+  cursor:pointer;
+  transform: translateY(-1px);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.PHANTHAN_TAB2_PHAI2 img:hover{
+  cursor:pointer;
+  transform: translateY(-1px);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.PHANTHAN_TAB2_PHAI1 img:hover{
+  cursor:pointer;
+  transform: translateY(-1px);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.PHANTHAN_TAB2_PHAI3 img:hover{
+  cursor:pointer;
+  transform: translateY(-1px);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+                                    /* test abc 4 */
+.PHANTHAN_TAB2_3{
+  width: 680px;
+  margin-top: 30px;
+  display: flex;
+  margin-left: 450px;
+  height: 200px;
+  margin-top: 20px;
+}
+.PHANTHAN_TAB2_TRAI3{
+  padding: 10px 10px;
+  text-align: left;
+  width: 380px;
+  margin-left: 15px;
+}
+.PHANTHAN_TAB2_TRAI3 h3{
+    font-size: 30px;
+}
+.PHANTHAN_TAB2_TRAI3 p{
+  font-size: 17px;
+  margin-top: 20px;
+  line-height: 23px;
+  text-align: justify;
+}
+.PHANTHAN_TAB2_TRAI3 h5{
+  opacity: 0.7;
+  margin-top: 20px;
+}
+
+.PHANTHAN_TAB2_PHAI3 p{
+  margin-left: -10px;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+.PHANTHAN_TAB2_PHAI3 img{
+  width: 120px ;
+  height: 120px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+                       /* Phần thân tab 2 phải */
+.PHANTHAN_TAB2_PHAI1 p{
+  margin-left: -10px;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+.PHANTHAN_TAB2_PHAI1 img{
+  width: 120px ;
+  height: 120px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+
+                         /* Phần thân tab 3 */
+.PHANTHAN_TAB3{
+  width: 250px;
+  height: 340px;
+  border: 1px solid;
+  margin-top: 30px;
+  text-align: left;
+  padding: 10px 10px;
+  border-radius: 10px ;
+}
+.PHANTHAN_TAB3 h3{
+  font-size: 24px;
+  color:#9F224E ;
+}
+.PHANTHAN_TAB3 p{
+  margin-top: 20px;
+  line-height: 23px;
+}
+.PHANTHAN_TAB3 p:hover{
+  cursor:pointer;
+  transform: translateY(-1px);
+}
+.PHANTHAN_TAB3 h3:hover{
+  cursor:pointer;
+  transform: translateY(-1px);
+}
+
+                        /* Chuyển trang */
+.CHUYENTRANG{
+  margin-left: 800px;
+  width: 330px;
+  margin: 0 auto;
+  margin-top: 950px;
+}
+#MAU{
+  width: 52px;
+  height: 52px;
+  border-radius: 5px;
+  border: 1px solid   #A9A9A9;
+  background-color:   #A52A2A;
+}
+#MAU a{
+  color: white;
+}
+.TRANG1{
+  
+  
+}
+.TRANG1 button{
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid   #A9A9A9;
+  opacity: 0.8;
+}
+.TRANG1 a{
+  text-decoration: none;
+  font-size: 20px;
+  font-family: serif;
+  color: black;
+}
+.TRANG1 button:hover{
+  background-color: #DCDCDC;
+}
+                        /* phần cuối */
+.phancuoi_con{
+  width: 1150px;
+  height: 70px;
+  background-color: #DCDCDC;
+  margin-top: 100px;
+  opacity: 0.6;
+}
+.phancuoi_con1{
+  width: 1150px;
+  height: 3px;
+  background-color: #DCDCDC;
+  margin-top: 30px;
+  opacity: 0.7;
+}
+                          /* Liên Hệ */
+.LIENHE{
+  width: 1150px;
+  height: 160px;
+  margin-top: 20px;
+  display: flex;
+  font-size: 14px;
+}
+.GIOITHIEU{
+  padding: 30px 0;
+  margin-left: 0px;
+}
+.GIOITHIEU img{
+  margin-top: -10px;
+  width: 200px;
+}
+.GIOITHIEU h3{
+  margin-top: 20px;
+}
+.GIOITHIEU p{
+  margin-top: 5px;
+  line-height: 23px;
+}
+.LIENHE2{
+  margin-top: 87px;
+  margin-left: 75px;
+  line-height: 23px;
+}
+.LIENHE3{
+  margin-top: 20px;
+}
+.LIENHE3 button{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #DCDCDC;
+}
+.LIENHE3 p{
+  margin-top: 40px;
+}
+.LIENHE3 button:hover{
+  background-color: #1E90FF;
+  color: white;
+}

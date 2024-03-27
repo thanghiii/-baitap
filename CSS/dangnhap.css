@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+:root {
+  --mainColor: #ff9800;
+}
+*{
+  margin: 0 auto;
+  padding: 0;
+}
+body{
+  background-attachment: fixed;
+  font-family: roboto;
+}
+                                      /* Trang chủ */
+.web{
+  width: 1500px;
+  position: relative;
+  margin: 0 auto;
+}
+.logo img{
+  margin-left: 0;
+  border-right: 1px solid   #A9A9A9;
+  padding: 0 50px;
+  width: 200px;
+}
+.logo{
+  display: flex;
+  margin-top: 15px;
+  height: 50px;
+}
+.logo p{
+  color: #696969;
+  margin-left: -50px;
+  line-height: 50px;
+}
+.logo button{
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid #696969;
+  border-radius: 5px;
+  cursor:pointer;
+}
+.logo2{
+  padding: 0 20px;
+  width: 620px;
+  margin-right: 140px;
+  cursor:pointer;
+
+}
+.logo2 input{
+  width: 170px;
+  height: 33px;
+  border-radius: 15px;
+  border: 1px solid;
+  margin-left: 20px;
+}
+.logo2 button{
+  width: 100px;
+  height: 33px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+#ICON1{
+  margin-left: -25px;
+}
+                                  /* menu */
+.TRANGCHU{
+    list-style-type: none;
+    width: 1500px;
+    overflow: hidden;
+    display: flex;
+     font-weight: bold;
+     margin-left: -50px;
+    padding: 0 10px;
+}
+.logo2 a{
+  background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 3px 3px;
+  color: #000;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 70px;
+  padding: 10px 0;
+}
+.logo2 a:hover{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+}
+.TRANGCHU li {
+  flex;1
+}
+.TRANGCHU button:hover{
+  background-color: darkred;
+  color: darkred;
+  cursor:pointer;
+  transform: translateY(-1px);
+}
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  line-height: 50px;
+  text-decoration: none;
+  opacity: 0.8;
+  transition-duration: .3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+li.dropdown {
+  display: inline-block;
+  transition-duration: .3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  width: 175px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  background-color: white;
+
+}
+.dropdown-content a {
+  width: 140px;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border: none;
+  font-weight: 10;
+  transition-duration: .3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+
+.trangchu .dropdown-content a:hover {
+  background-color: #db7093;
+  color: white;
+
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  border-top: 2px solid #b1154a;
+
+}
+.TRANGCHU a:hover{
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  transform: translateY(-1px);
+  color: darkred;
+}
+                            /* Phần thân */
+.PHANTHAN{
+  width: 1655px;
+  height: 90px;
+  margin-top: 20px;
+  background-color: white;
+  text-align: center;
+}
+.PHANTHAN_CON h1{
+  color: #9F224E;
+  font-size: 40px;
+}
+.PHANTHAN_ME{
+  width: 1150px;
+  height: 500px;
+  border: 1px solid;
+  margin-top: -1px;
+}
+.PHANTHAN_ME p{
+  text-align: left;
+  width: 300px;
+  font-size: 25px;
+  margin-top: 50px;
+}
+.PHANTHAN_ME input{
+  width: 300px;
+  height: 40px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.PHANTHAN_ME a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.PHANTHAN_ME button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF7F50;
+    margin-left: 70px;
+}
+.PHANTHAN_ME button:hover{
+  background-color: darkred;
+  transform: translateY(-1px);
+}
+
+
+
+
+                        /* Chuyển trang */
+.CHUYENTRANG{
+  margin-left: 800px;
+  width: 330px;
+  margin: 0 auto;
+  margin-top: 400px;
+}
+#MAU{
+  width: 52px;
+  height: 52px;
+  border-radius: 5px;
+  border: 1px solid   #A9A9A9;
+  background-color:   #A52A2A;
+}
+#MAU a{
+  color: white;
+}
+.TRANG1 button{
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid   #A9A9A9;
+  opacity: 0.8;
+  margin-left: -400px;
+  margin-top: 20px;
+}
+.TRANG1 a{
+  text-decoration: none;
+  font-size: 20px;
+  font-family: serif;
+  color: black;
+}
+.TRANG1 button:hover{
+  background-color: #DCDCDC;
+}
+                        /* phần cuối */
+.phancuoi_con{
+  width: 1150px;
+  height: 70px;
+  background-color: #DCDCDC;
+  margin-top: 100px;
+  opacity: 0.6;
+}
+.phancuoi_con1{
+  width: 1150px;
+  height: 3px;
+  background-color: #DCDCDC;
+  margin-top: 30px;
+  opacity: 0.7;
+}
+                          /* Liên Hệ */
+.LIENHE{
+  width: 1150px;
+  height: 160px;
+  margin-top: 20px;
+  display: flex;
+  font-size: 14px;
+}
+.GIOITHIEU{
+  padding: 30px 0;
+  margin-left: 0px;
+}
+.GIOITHIEU img{
+  margin-top: -10px;
+  width: 200px;
+}
+.GIOITHIEU h3{
+  margin-top: 20px;
+}
+.GIOITHIEU p{
+  margin-top: 5px;
+  line-height: 23px;
+}
+.LIENHE2{
+  margin-top: 87px;
+  margin-left: 75px;
+  line-height: 23px;
+}
+.LIENHE3{
+  margin-top: 20px;
+}
+.LIENHE3 button{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #DCDCDC;
+}
+.LIENHE3 p{
+  margin-top: 40px;
+}
+.LIENHE3 button:hover{
+  background-color: #1E90FF;
+  color: white;
+}
